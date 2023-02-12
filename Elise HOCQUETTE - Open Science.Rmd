@@ -1,13 +1,13 @@
 ---
 title: "Open Science"
-subtitle: "Outils, Perspectives et Enjeux des Numériques (OPEN)"  
 author: "Elise Hocquette (P52)"
 date: "`r Sys.Date()`"
 output:
   pdf_document:
-    toc: true
-    number_sections: true
-    extra_dependencies: ["float"]
+    toc: yes
+    number_sections: yes
+    extra_dependencies: float
+subtitle: Outils, Perspectives et Enjeux des Numériques (OPEN)
 bibliography: biblio_openscience.bib
 csl: isara-iso-690.csl
 ---
@@ -95,11 +95,13 @@ Plus généralement, l’Open Science est perçue comme un accélérateur de l�
 Dans certains domaines scientifiques, la culture du partage des données n’est pas très répandue, prétextant la propriété intellectuelle. Ainsi, les chercheurs ne sont pas toujours enclins à diffuser leurs données, en tout cas avant leur publication dans des journaux scientifiques. 
 
 Par ailleurs, certaines entreprises du secteur privé sont invitées à rendre leurs données de recherche accessibles, mais elles sont souvent réfractaires à cela par souci de préserver le secret industriel ou commercial. C’est particulièrement le cas des technologies innovantes, comme les entreprises développant la viande de culture.
+
 Certains chercheurs ont aussi du mal à changer leurs habitudes et préfèrent continuer de publier leurs travaux sur des plateformes payantes, qui confèrent une valeur plus élevée à leurs publications dans leur milieu de travail, et plus facilement reconnue dans le domaine de la recherche scientifique.
 
-Par ailleurs, les scientifiques ont déjà une grande confiance dans le système traditionnel. De ce fait, une des faiblesse des plateformes est liée à un manque relatif de confiance par les chercheurs, compromettant ainsi leur réputation [@jamali_scholarly_2016). 
-De plus, la réutilisation plus facile des données et des productions des chercheurs peut être jugée moins éthique (@eve_open_2014).
-Compte tenu de ces limites, certains chercheurs proposent une stratégie de mise en œuvre de l’Open Science, l’accès libre des articles et des données étant simplement une première étape vers une collaboration plus importante en toute transparence entre chercheurs (@dienlin_agenda_2021).
+Par ailleurs, les scientifiques ont déjà une grande confiance dans le système traditionnel. De ce fait, une des faiblesse des plateformes est liée à un manque relatif de confiance par les chercheurs, compromettant ainsi leur réputation [@jamali_scholarly_2016]. 
+
+De plus, la réutilisation plus facile des données et des productions des chercheurs peut être jugée moins éthique [@eve_open_2014].
+Compte tenu de ces limites, certains chercheurs proposent une stratégie de mise en œuvre de l’Open Science, l’accès libre des articles et des données étant simplement une première étape vers une collaboration plus importante en toute transparence entre chercheurs [@dienlin_agenda_2021].
 
 
 # \textcolor{red} {Conclusion générale}
